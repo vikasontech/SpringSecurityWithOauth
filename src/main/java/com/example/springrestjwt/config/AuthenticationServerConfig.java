@@ -2,7 +2,6 @@ package com.example.springrestjwt.config;
 
 
 import com.example.springrestjwt.config.param.JWTConfigProperties;
-
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
