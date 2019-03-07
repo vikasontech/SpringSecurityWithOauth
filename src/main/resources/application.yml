@@ -1,0 +1,21 @@
+security:
+  encoding-strength: 256
+  signing-key: yWWcHrTa
+  security-realm: Spring Rest JWT
+  jwt:
+    client-id: client
+    client-secret: $2a$04$Ck8Y6nyCIkN...8pXOz4d.PY6PDtFjbcEk0oiOXL39GElUteq6.eS
+    grant-type: password
+    scope-read: read
+    scope-write: write
+    resource-ids: resource
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: 'create-drop'
+  datasource:
+    initialization-mode: always
+    platform: org.hibernate.dialect.MySQL5Dialect
+    url: jdbc:mysql://localhost:3306/sample
+    username: root
+    password:
