@@ -1,0 +1,11 @@
+security:
+  encoding-strength: 256
+  signing-key: yWWcHrTa
+  security-realm: Spring Rest JWT
+  jwt:
+    client-id: client
+    client-secret: $2a$04$Ck8Y6nyCIkN...8pXOz4d.PY6PDtFjbcEk0oiOXL39GElUteq6.eS
+    grant-type: password
+    scope-read: read
+    scope-write: write
+    resource-ids: resource

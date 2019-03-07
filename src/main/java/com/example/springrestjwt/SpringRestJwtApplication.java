@@ -36,7 +36,7 @@ public class SpringRestJwtApplication {
         User user = User.builder().firstName("user")
                 .lastName("user")
                 .username("user")
-                .password("password")
+                .password("$2a$04$5orSPmrUIRCYyVYwkLjE1OyEGTlkRkGd/5vWYlPvtvK8rzbJIoUIG")
                 .roles(new HashSet<>(Arrays.asList(userRole)))
                 .build();
 
