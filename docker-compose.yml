@@ -2,6 +2,8 @@ version: '3'
 services:
   mysql:
     image: mysql:5.7
+    container_name:
+      spring-security-db
     environment:
       - MYSQL_USER=root
       - MYSQL_ALLOW_EMPTY_PASSWORD=yes

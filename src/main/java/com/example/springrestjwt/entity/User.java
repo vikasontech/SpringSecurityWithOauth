@@ -1,4 +1,4 @@
-package com.example.springrestjwt.controller.entity;
+package com.example.springrestjwt.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

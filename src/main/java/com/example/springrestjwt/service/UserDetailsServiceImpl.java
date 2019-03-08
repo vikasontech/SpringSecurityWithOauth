@@ -1,7 +1,7 @@
-package com.example.springrestjwt.controller.repo.service;
+package com.example.springrestjwt.service;
 
-import com.example.springrestjwt.controller.entity.User;
-import com.example.springrestjwt.controller.repo.UserRepository;
+import com.example.springrestjwt.entity.User;
+import com.example.springrestjwt.repository.UserRepository;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
